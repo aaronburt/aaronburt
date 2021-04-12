@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @aaronburt
+- 👀 I’m interested in Javascript
+- 🌱 I’m currently learning React and Jamstack deployment
+- 📫 How to reach me: email@aaronburt.co.uk
