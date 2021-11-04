@@ -25,6 +25,9 @@ The Api has been updated to version 2, migrated from Cloudflare Workers to a Doc
 #### [Wallpaper](https://api.aaronburt.co.uk/wallpaper)
 This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
+#### [Wallpaper/ImgSrc](https://api.aaronburt.co.uk/wallpaper/embed)
+This will get the latest wallpaper url and 302 redirect the client to img, this should mean that for all img tags the img should just work fine AGAIN i strictly reccommended only using this for private non-commercial reasons. 
+
 #### [Weather/Today](https://api.aaronburt.co.uk/weather/now/london)
 
 This will grab the city name from the route and perform an api request using credentials protected from the user. It will then spit back the correct data for the request. All Route requests are cached to avoid over invoking on OpenWeather endpoint. All payload should be returned as JSON.  
