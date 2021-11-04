@@ -15,7 +15,7 @@ I wanted a custom homepage for myself that didn't either have ads or required me
 
 ## [Api.aaronburt.co.uk](https://api.aaronburt.co.uk)
 
-I needed a service that was able to do Server side functions, like authentication and external api requests with credentials that i don't a user having access to. ApiAB covers this idea by running a serverless enviroment running V8 Chrome code. Cold starts are reduced by having an lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce the need to contact the origin.  
+I needed a service that was able to do Server side functions, like authentication and external api requests with credentials that i don't want a user having access to. ApiAB covers this idea by running a serverless enviroment running V8 Chrome code. Cold starts are reduced by having an lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce the need to contact the origin.  
 
 ### V2
 The Api has been updated to version 2, migrated from Cloudflare Workers to a Dockerized Serverless instance which sports a NodeJS server enviroment and placed behind a reverse proxy caching layer to reduce cold starts on common requests. 
