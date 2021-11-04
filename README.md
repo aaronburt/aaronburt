@@ -23,7 +23,7 @@ The Api has been updated to version 2, migrated from Cloudflare Workers to a Doc
 ### Public free endpoints -- Please don't abuse them or i will need to remove them. 
 
 #### [Wallpaper](https://api.aaronburt.co.uk/wallpaper)
-This gets the lastest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
+This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
 #### [Weather/Today](https://api.aaronburt.co.uk/weather/now/london)
 
