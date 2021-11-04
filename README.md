@@ -15,14 +15,20 @@ I wanted a custom homepage for myself that didn't either have ads or required me
 
 ## [Api.aaronburt.co.uk](https://api.aaronburt.co.uk)
 
-I needed a service that was able to do Server side functions, like authentication and external api requests with credentials that i don't a user having access to. ApiAB covers this idea by running a serverless enviroment running V8 Chrome code. Colds starts times are reduced by invoking the service automatically at constant intervals. 
+I needed a service that was able to do Server side functions, like authentication and external api requests with credentials that i don't a user having access to. ApiAB covers this idea by running a serverless enviroment running V8 Chrome code. Cold starts are reduced by having an lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce the need to contact the origin.  
 
+### V2
+The Api has been updated to version 2, migrated from Cloudflare Workers to a Dockerized Serverless instance which sports a NodeJS server enviroment and placed behind a reverse proxy caching layer to reduce cold starts on common requests. 
 
-### Public free endpoints 
+### Public free endpoints -- Please don't abuse them or i will need to remove them. 
 
 #### [Wallpaper](https://api.aaronburt.co.uk/wallpaper)
 This gets the lastest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
-#### [Forcast/Today](https://api.aaronburt.co.uk/forcast/today/london)
+#### [Weather/Today](https://api.aaronburt.co.uk/weather/now/london)
 
 This will grab the city name from the route and perform an api request using credentials protected from the user. It will then spit back the correct data for the request. All Route requests are cached to avoid over invoking on OpenWeather endpoint. All payload should be returned as JSON.  
+
+#### [Weather/Week](https://api.aaronburt.co.uk/weather/week/london)
+
+This will return a week worth of json payload instead of a single time.
