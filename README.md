@@ -40,6 +40,12 @@ This will return a week worth of json payload instead of a single time.
 
 This function will generate a random string between 1 and 4096 characters. Use the length query to specify the amount.
 
+## BunnyCDN
+
 #### [Bunny Edge Server Ip Listing](https://bunny-edge-server-list.aaronburt.co.uk)
 
 This function will list all of the currently active BunnyCDN edge server ip addresses, it is displayed as a Javascript array.
+
+### [Bunny Billing Json](https://bunny-billing-json.aaronburt.co.uk/)
+
+This function will return all of the json from bunny billing, this will aggressive cache the result, you will need to provide a ?key= query from [here](https://panel.bunny.net/account)
