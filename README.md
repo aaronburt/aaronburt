@@ -36,10 +36,10 @@ This will grab the city name from the route and perform an api request using cre
 
 This will return a week worth of json payload instead of a single time.
 
-### [Random String Generator](https://generate-random-string.aaronburt.workers.dev)
+#### [Random String Generator](https://generate-random-string.aaronburt.workers.dev)
 
 This function will generate a random string between 1 and 4096 characters. Use the length query to specify the amount.
 
-### [Bunny Edge Server Ip Listing](https://bunny-edge-server-list.aaronburt.co.uk)
+#### [Bunny Edge Server Ip Listing](https://bunny-edge-server-list.aaronburt.co.uk)
 
 This function will list all of the currently active BunnyCDN edge server ip addresses, it is displayed as a Javascript array.
