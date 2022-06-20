@@ -46,6 +46,6 @@ This function will generate a random string between 1 and 4096 characters. Use t
 
 This function will list all of the currently active BunnyCDN edge server ip addresses, it is displayed as a Javascript array.
 
-### [Bunny Billing Json](https://bunny-billing-json.aaronburt.co.uk/)
+#### [Bunny Billing Json](https://bunny-billing-json.aaronburt.co.uk/)
 
 This function will return all of the json from bunny billing, this will aggressive cache the result, you will need to provide a ?key= query from [here](https://panel.bunny.net/account)
