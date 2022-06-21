@@ -48,8 +48,9 @@ a = a-z
 A = A-Z
 0 = 0-9
 $ = symbols that shouldn't cause string escape issues
-[Example](https://random-string-generator.aaronburt.workers.dev/?length=64&type=aA0$)
 ```
+[Example](https://random-string-generator.aaronburt.workers.dev/?length=64&type=aA0$)
+
 
 ## BunnyCDN
 
