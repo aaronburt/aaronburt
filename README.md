@@ -38,7 +38,18 @@ This will return a week worth of json payload instead of a single time.
 
 #### [Random String Generator](https://generate-random-string.aaronburt.workers.dev)
 
-This function will generate a random string between 1 and 4096 characters. Use the length query to specify the amount.
+This function will generate a random string that you can use for any methods that require a little bit of randomness, I don't recommend using this for cryptographic security as its only using [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
+
+```
+?length= will determine how long the string return is upto a maximum value of 9999
+&type= will determine what characters are used in the string. You can use any or all of the following. 
+
+a = a-z 
+A = A-Z
+0 = 0-9
+$ = symbols that shouldn't cause string escape issues
+[Example](https://random-string-generator.aaronburt.workers.dev/?length=64&type=aA0$)
+```
 
 ## BunnyCDN
 
