@@ -34,9 +34,9 @@ This will grab the city name from the route and perform an api request using cre
 
 #### [Weather/Week](https://api.aaronburt.co.uk/weather/week/london)
 
-This will return a week worth of json payload instead of a single time.https://random-string-generator.aaronburt.workers.dev
+This will return a week worth of json payload instead of a single time.
 
-#### [Random String Generator](https://random-string-generator.aaronburt.workers.dev/)
+#### [Random String Generator](https://random.streamsave.xyz/)
 
 This function will generate a random string that you can use for any methods that require a little bit of randomness, I don't recommend using this for cryptographic security as its only using [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
 
