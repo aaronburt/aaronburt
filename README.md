@@ -22,10 +22,10 @@ The Api has been updated to version 2, migrated from Cloudflare Workers to a Doc
 
 ### Public free endpoints -- Please don't abuse them or i will need to remove them. 
 
-#### [Wallpaper](https://api.aaronburt.co.uk/wallpaper)
+#### [Wallpaper](https://wallpaper.streamsave.xyz/)
 This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
-#### [Wallpaper/ImgSrc](https://api.aaronburt.co.uk/wallpaper/embed)
+#### [Wallpaper/ImgSrc](https://wallpaper.streamsave.xyz/embed)
 This will get the latest wallpaper url and 302 redirect the client to img, this should mean that for all img tags the img should just work fine AGAIN i strictly reccommended only using this for private non-commercial reasons. 
 
 #### [Weather/Today](https://api.aaronburt.co.uk/weather/now/london)
