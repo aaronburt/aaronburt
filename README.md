@@ -28,13 +28,8 @@ This gets the latest Wallpaper of the day from Bing and allows it to be embeded 
 #### [Wallpaper/ImgSrc](https://wallpaper.streamsave.xyz/embed)
 This will just display the image from the wallpaper api which can be embeded in any source you like, ensure to not abuse this as i don't want to have to apply limits.
 
-#### [Weather/Today](https://api.aaronburt.co.uk/weather/now/london)
-
-This will grab the city name from the route and perform an api request using credentials protected from the user. It will then spit back the correct data for the request. All Route requests are cached to avoid over invoking on OpenWeather endpoint. All payload should be returned as JSON.  
-
-#### [Weather/Week](https://api.aaronburt.co.uk/weather/week/london)
-
-This will return a week worth of json payload instead of a single time.
+#### [Weather](https://weather.streamsave.xyz/get?city=london)
+This function will grab everything weather related and possible useful to you in a single json payload. Everything response is cached for atleast 3 hours at a time. 
 
 #### [Random String Generator](https://random.streamsave.xyz/)
 
