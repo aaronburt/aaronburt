@@ -10,8 +10,6 @@ I wanted a custom homepage for myself that didn't either have ads or required me
 
 - Built in React
 - Deployed using Cloudflare Pages via GIT
-- [Uses my RESTFul api to fetch weather data from OpenWeatherAPI](https://home.aaronburt.co.uk/?city=congleton)
-
 
 ## [Api.aaronburt.co.uk](https://api.aaronburt.co.uk)
 
