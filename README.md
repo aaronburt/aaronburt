@@ -29,7 +29,7 @@ This will just display the image from the wallpaper api which can be embeded in 
 #### [Weather](https://weather.streamsave.xyz/get?city=london)
 This function will grab everything weather related and possible useful to you in a single json payload. Everything response is cached for atleast 3 hours at a time. 
 
-#### [Random String Generator](https://random.streamsave.xyz/)
+#### [Random String Generator](https://random.function.aaronburt.co.uk/)
 
 This function will generate a random string that you can use for any methods that require a little bit of randomness, I don't recommend using this for cryptographic security as its only using [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
 
@@ -42,7 +42,7 @@ A = A-Z
 0 = 0-9
 $ = symbols that shouldn't cause string escape issues
 ```
-[Example](https://random.streamsave.xyz/?length=64&type=aA0$)
+[Example](https://random.function.aaronburt.co.uk/?length=64&type=aA0$)
 
 
 ## BunnyCDN
