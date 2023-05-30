@@ -20,7 +20,7 @@ Performance has been significantly improved to reduce cold starts and data will 
 
 ### Public free endpoints -- Please don't abuse them or i will need to remove them. 
 
-#### [Wallpaper](https://wallpaper.streamsave.xyz/)
+#### [Wallpaper](https://wallpaper.function.aaronburt.co.uk/)
 This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
 #### [Wallpaper/ImgSrc](https://wallpaper.streamsave.xyz/embed)
