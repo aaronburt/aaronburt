@@ -24,7 +24,9 @@ Performance has been significantly improved to reduce cold starts and data will 
 This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
 #### [Wallpaper/ImgSrc](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
-This will just display the image from the wallpaper api which can be embeded in any source you like, ensure to not abuse this as i don't want to have to apply limits.
+This will just display the image from the wallpaper api which can be embeded in any source you like, ensure to not abuse this as i don't want to have to apply limits, also don't use it for commercial reasons.
+
+![image info](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
 
 #### [Weather](https://weather.streamsave.xyz/get?city=london)
 This function will grab everything weather related and possible useful to you in a single json payload. Everything response is cached for atleast 3 hours at a time. 
