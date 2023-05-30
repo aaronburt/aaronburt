@@ -23,7 +23,7 @@ Performance has been significantly improved to reduce cold starts and data will 
 #### [Wallpaper](https://wallpaper.function.aaronburt.co.uk/)
 This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
 
-#### [Wallpaper/ImgSrc](https://wallpaper.streamsave.xyz/embed)
+#### [Wallpaper/ImgSrc](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
 This will just display the image from the wallpaper api which can be embeded in any source you like, ensure to not abuse this as i don't want to have to apply limits.
 
 #### [Weather](https://weather.streamsave.xyz/get?city=london)
