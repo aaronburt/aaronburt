@@ -13,27 +13,27 @@ I wanted a custom homepage for myself that didn't either have ads or required me
 
 ## API
 
-I needed a service that was able to do Server side functions, like authentication and external api requests with credentials that i don't want a user having access to. ApiAB covers this idea by running a serverless enviroment running V8 Chrome code. Cold starts are reduced by having an lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce the need to contact the origin.  
+I needed a service that could perform server-side functions like authentication and external API requests with restricted user access. ApiAB fulfills this requirement by running a serverless environment with V8 Chrome code. To minimize cold starts, it uses a lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce origin contacts.
 
-### V3
-Performance has been significantly improved to reduce cold starts and data will be refreshed much more quickly. 
+### V4
+V4 offers significant performance improvements, reducing cold starts and refreshing data much faster.
 
 ### Public free endpoints -- Please don't abuse them or i will need to remove them. 
 
 #### [Wallpaper](https://wallpaper.function.aaronburt.co.uk/)
-This gets the latest Wallpaper of the day from Bing and allows it to be embeded anywhere, i strictly reccommended only using this for private non-commercial reasons. 
+This endpoint retrieves the latest Wallpaper of the day from Bing and allows embedding for private non-commercial use only.
 
 #### [Wallpaper/ImgSrc](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
-This will just display the image from the wallpaper api which can be embeded in any source you like, ensure to not abuse this as i don't want to have to apply limits, also don't use it for commercial reasons.
+This endpoint displays the image from the wallpaper API, which can be embedded in any source. Please avoid misuse and commercial usage.
 
 ![image info](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
 
-#### [Weather](https://weather.streamsave.xyz/get?city=london)
-This function will grab everything weather related and possible useful to you in a single json payload. Everything response is cached for atleast 3 hours at a time. 
+#### [Weather](https://weather.function.aaronburt.co.uk/current/br1/gb)
+This function provides comprehensive weather-related data in a single JSON payload. All responses are cached for an 1 hour.
 
 #### [Random String Generator](https://random.function.aaronburt.co.uk/)
 
-This function will generate a random string that you can use for any methods that require a little bit of randomness, I don't recommend using this for cryptographic security as its only using [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
+This function generates a random string that can be used for various purposes requiring some level of randomness. However, it's not recommended for cryptographic security as it solely relies on [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
 
 ```
 ?length= will determine how long the string return is upto a maximum value of 9999
@@ -51,8 +51,8 @@ $ = symbols that shouldn't cause string escape issues
 
 #### [Bunny Edge Server Ip Listing](https://bunny-edge-server-list.aaronburt.co.uk)
 
-This function will list all of the currently active BunnyCDN edge server ip addresses, it is displayed as a Javascript array.
+This function lists all currently active BunnyCDN edge server IP addresses and is displayed as a JavaScript array.
 
 #### [Bunny Billing Json](https://bunny-billing-json.aaronburt.co.uk/)
 
-This function will return all of the json from bunny billing, this will aggressive cache the result, you will need to provide a ?key= query from [here](https://panel.bunny.net/account)
+This function returns all the JSON data from Bunny Billing. The result is aggressively cached, and you need to provide a ?key= query from [here](https://panel.bunny.net/account)
