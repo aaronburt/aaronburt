@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @aaronburt
-- 👀 I’m interested in Javascript
-- 🌱 I’m currently learning React and Jamstack deployment
+- 👀 I’m interested in Javascript and Java
+- 🌱 I’m currently learning about Springboot
 - 📫 How to reach me: email@aaronburt.co.uk
 
 
