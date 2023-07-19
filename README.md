@@ -4,7 +4,13 @@
 - 📫 How to reach me: email@aaronburt.co.uk
 
 
-# Home.AaronBurt.co.uk
+
+
+# Babblebot Plugins
+
+I've been writing Java plugins for [Babblebot](https://github.com/babblebot-server). Creating useful ones that are currently in progress. I have already made several plugins, and there are more in development buts its matter of waiting for Ben to finish the main codebase before i can fully flesh them out. 
+
+## Home.AaronBurt.co.uk
 
 I wanted a custom homepage for myself that didn't either have ads or required me to install a Extension, so i decided to build an ReactApp that has the technical capacity to be very module. 
 
