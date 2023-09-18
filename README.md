@@ -10,13 +10,6 @@
 
 I've been writing Java plugins for [Babblebot](https://github.com/babblebot-server). Creating useful ones that are currently in progress. I have already made several plugins, and there are more in development buts its matter of waiting for Ben to finish the main codebase before i can fully flesh them out. 
 
-## Home.AaronBurt.co.uk
-
-I wanted a custom homepage for myself that didn't either have ads or required me to install a Extension, so i decided to build an ReactApp that has the technical capacity to be very module. 
-
-- Built in React
-- Deployed using Cloudflare Pages via GIT
-
 ## API
 
 I needed a service that could perform server-side functions like authentication and external API requests with restricted user access. ApiAB fulfills this requirement by running a serverless environment with V8 Chrome code. To minimize cold starts, it uses a lean container (Stripped back Alpine Linux) and an aggressive caching layer to reduce origin contacts.
