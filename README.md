@@ -27,7 +27,7 @@ This endpoint displays the image from the wallpaper API, which can be embedded i
 
 ![image info](https://wallpaper.function.aaronburt.co.uk/youcanwritebasicallyanythinghere)
 
-#### [Weather](https://weather.function.aaronburt.co.uk/current/br1/gb)
+#### [Weather](https://weather.function.aaronburt.co.uk/?city=london)
 This function provides comprehensive weather-related data in a single JSON payload. All responses are cached for an 1 hour.
 
 #### [Random String Generator](https://random.function.aaronburt.co.uk/)
