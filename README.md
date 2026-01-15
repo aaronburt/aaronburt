@@ -30,22 +30,6 @@ This endpoint displays the image from the wallpaper API, which can be embedded i
 #### [Weather](https://weather.function.aaronburt.co.uk/?city=london)
 This function provides comprehensive weather-related data in a single JSON payload. All responses are cached for an 1 hour.
 
-#### [Random String Generator](https://random.function.aaronburt.co.uk/)
-
-This function generates a random string that can be used for various purposes requiring some level of randomness. However, it's not recommended for cryptographic security as it solely relies on [Math.random()](https://deepsource.io/blog/dont-use-math-random/). 
-
-```
-?length= will determine how long the string return is upto a maximum value of 9999
-&type= will determine what characters are used in the string. You can use any or all of the following. 
-
-a = a-z 
-A = A-Z
-0 = 0-9
-$ = symbols that shouldn't cause string escape issues
-```
-[Example](https://random.function.aaronburt.co.uk/?length=64&type=aA0$)
-
-
 ## BunnyCDN
 
 #### [Bunny Edge Server Ip Listing](https://bunny-edge-server-list.aaronburt.co.uk)
